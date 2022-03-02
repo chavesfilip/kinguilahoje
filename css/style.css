@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: arial;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    background: #1d1e20;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a {
+    display: block;
+    
+}
+#banner {
+    background: url('../img/banner.jpg');
+    background-size: cover;
+	background-position: 0 55%;
+	position: relative;
+	padding: 300px;
+}
+.header a:hover{
+    color: red;
+}
+.texto{
+    background: rgb(161, 4, 4);
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+}
+.cotacao{
+    margin-top: 90px;
+    display: flex;
+  justify-content: center;
+}
+.p{
+    margin-top: 60px;
+    text-align: center;
+}
+.card{
+    margin-left: 15px;
+}
