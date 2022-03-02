@@ -5,6 +5,7 @@
     font-size: 1.2rem;
     font-family: arial;
     list-style: none;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     
 }
 a{
@@ -17,6 +18,7 @@ a{
     padding: 20px;
     flex-wrap: wrap;
     background: #1d1e20;
+    
 }
 .menu {
     display: flex;
@@ -33,7 +35,7 @@ a{
     background-size: cover;
 	background-position: 0 55%;
 	position: relative;
-	padding: 300px;
+	padding: 350px;
 }
 .header a:hover{
     color: red;
@@ -52,7 +54,64 @@ a{
 .p{
     margin-top: 60px;
     text-align: center;
+    font-weight: 700;
 }
 .card{
     margin-left: 15px;
+}
+.icon{
+   margin-left: 100px;
+}
+.h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 35px;
+}
+.h2{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+
+}
+.cab{
+    text-align: center;
+}
+.m{
+    
+}
+.cota{
+    background: #1d1e20;
+    padding: 50px;
+    margin-top: 100px;
+}
+.a{
+    width: 350px;
+}
+span{
+    color: white;
+    font-size: 15px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resul{
+    margin-left: 50px;
+    margin-top: -40px;
+}
+small{
+    color: white;
+    font-size: 15px;
+}
+.text{
+    font-size: 20px;
+}
+.footer{
+    background: #1d1e20;
+    margin-top: 100px;
+    padding: 100px;
+}
+.footer p {
+    color: white;
 }
