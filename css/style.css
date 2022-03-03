@@ -5,7 +5,6 @@
     font-size: 1.2rem;
     font-family: arial;
     list-style: none;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     
 }
 a{
@@ -18,6 +17,7 @@ a{
     padding: 20px;
     flex-wrap: wrap;
     background: #1d1e20;
+    
     
 }
 .menu {
@@ -114,4 +114,31 @@ small{
 }
 .footer p {
     color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: 1.2rem;
+
+}
+.input{
+    width: 100%;
+    width: 500px;
+}
+.contact h2{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.button{
+    width: 100%;
+    width: 500px;
+    background-color: red; 
+    color: white;
+}
+.l{
+    width: 100%;
+    width: 500px;
+    height: 150px;
 }
