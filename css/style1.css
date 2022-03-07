@@ -1,0 +1,51 @@
+
+.content{
+  height: 100vh;
+  font-size: 1.2rem;
+}
+
+.blog_post {
+  position: relative;
+  background: #fff;
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  opacity: 0.8;
+  padding: 50px;
+}
+
+.container_copy{
+  margin-top: -25px;
+  text-align: center;
+ 
+}
+
+.descrition{
+  font-size: 14pt;
+}
+
+.wrapper img{
+  width: 100%;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  
+
+  
+}
+.list-cambio span{
+  color: #343a40;
+  margin-left: 20px;
+  
+}
+
+.list-cambio{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
